@@ -1,7 +1,5 @@
-package Module1.Exercise2;
+package Module_1.Exercise_2;
 
-public class Doc {
-    void open() {
-        // implementation
-    }
+public interface Doc {
+    void open();
 }
