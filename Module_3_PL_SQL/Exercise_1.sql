@@ -1,3 +1,4 @@
+/*Scenario  1*/
 DECLARE
     CURSOR c_customers IS
         SELECT Customer_ID, Age 
@@ -15,7 +16,7 @@ BEGIN
 END;
 /
 
-
+/*Scenario  2*/
 
 DECLARE
     CURSOR c_balances IS
@@ -35,7 +36,7 @@ END;
 /
 
 
-
+/*Scenario  3*/
 
 DECLARE
     CURSOR c_due_loans IS
