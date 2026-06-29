@@ -16,7 +16,7 @@ public class MyServiceTest {
         // 3. Act: Call the method
         service.fetchData(); 
         
-        // 4. Verify: Ensure the getData() method was actually called
+        
         verify(mockApi).getData(); 
     } 
 }
