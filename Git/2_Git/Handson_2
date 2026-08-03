@@ -1,0 +1,21 @@
+Step 1: Create the Test File and Folder
+echo "this is a test log" > application.log
+mkdir log
+echo "debug info" > log/debug.txt
+git status
+
+Step 2: Create and Update the .gitignore File
+notepad++ .gitignore
+
+# Note: In the Notepad++ window, add these two lines, save, and close:
+# *.log
+# log/
+
+Step 3: Verify the Changes
+git status
+
+Step 4: Commit and Push the .gitignore File
+git add .gitignore
+git commit
+# Note: Add a commit message in Notepad++, save, and close
+git push origin master
